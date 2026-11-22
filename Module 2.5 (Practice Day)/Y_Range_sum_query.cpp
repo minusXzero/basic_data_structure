@@ -14,10 +14,10 @@ int main()
 
     for(int i = 0; i < q; i++)
     {
-        int l, r; 
+        long long l, r; 
         cin >> l >> r; 
 
-        cout << accumulate(A.begin() + l - 1, A.begin() + r, 0) << endl;
+        cout << accumulate(A.begin() + l - 1, A.begin() + r, 0LL) << endl;
 
 
         // int sum = 0; 
